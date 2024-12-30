@@ -1,5 +1,5 @@
 import sys # Any error that is getting controlled the sys library will have that information. 
-import logging
+from src.logger import logging
 
 def error_message_detail(error, error_detail:sys):
     _, _, exc_tb = error_detail.exc_info()
