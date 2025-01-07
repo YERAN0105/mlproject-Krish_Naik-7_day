@@ -60,7 +60,7 @@ class DataTransformation:
             train_df = pd.read_csv(train_path)
             test_df = pd.read_csv(test_path)
 
-            logging.info("Read the train and tet datasets")
+            logging.info("Read the train and test datasets")
 
             logging.info("Obtaining preprocessing object")
 
